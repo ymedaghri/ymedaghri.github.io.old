@@ -12,6 +12,6 @@ For information the buster that works correctly is a fork of the original.
 
 Buster fork adress is : https://github.com/manthansharma/buster/
 
-[For Details, visit link](https://www.codementor.io/montem/setup-github-pages-with-ghost-b59xbg2ya).
+[For more details, visit this link](https://www.codementor.io/montem/setup-github-pages-with-ghost-b59xbg2ya).
 
 Powered by [Ghost](http://ghost.org) and [Buster](https://github.com/manthansharma/buster/).
