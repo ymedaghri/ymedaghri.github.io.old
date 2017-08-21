@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Youssef MEDAGHRI-ALAOUI - Youssef Medaghri-Alaoui]]></title><description><![CDATA[Thoughts, stories and ideas on Software CraftmanShip, Devops & Agility.]]></description><link>https://ymedaghri.github.io/</link><image><url>https://ymedaghri.github.io/favicon.png</url><title>Youssef MEDAGHRI-ALAOUI - Youssef Medaghri-Alaoui</title><link>https://ymedaghri.github.io/</link></image><generator>Ghost 1.6</generator><lastBuildDate>Mon, 21 Aug 2017 21:31:14 GMT</lastBuildDate><atom:link href="https://ymedaghri.github.io/author/youssef/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Behavior Driven Development (BDD) in a few words]]></title><description><![CDATA[<div class="kg-card-markdown"><p>BDD (Behavior Driven Development) is primarily a conceptual approach also knows as <strong>Specification by Example</strong>.<br>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Youssef MEDAGHRI-ALAOUI - Youssef Medaghri-Alaoui]]></title><description><![CDATA[Thoughts, stories and ideas on Software CraftmanShip, Devops & Agility.]]></description><link>https://ymedaghri.github.io/</link><image><url>https://ymedaghri.github.io/favicon.png</url><title>Youssef MEDAGHRI-ALAOUI - Youssef Medaghri-Alaoui</title><link>https://ymedaghri.github.io/</link></image><generator>Ghost 1.6</generator><lastBuildDate>Mon, 21 Aug 2017 22:17:04 GMT</lastBuildDate><atom:link href="https://ymedaghri.github.io/author/youssef/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Behavior Driven Development (BDD) in a few words]]></title><description><![CDATA[<div class="kg-card-markdown"><p>BDD (Behavior Driven Development) is primarily a conceptual approach also knows as <strong>Specification by Example</strong>.<br>
 It is a <strong>Collaboration Technic</strong> where all the actors of the team meet together in a meeting called <strong>“The 3 Amigos”</strong> to design stories related to a feature in the form of acceptance scenarios.</p>
 <div class="cinta dos">
   <img src="https://ymedaghri.github.io/content/images/2017/08/3-amigos-mario-luigi-yoschi.png">
@@ -49,9 +49,11 @@ Then I should have three blue garments in stock
 And two black garments in stock.
 </code></pre>
 <p><a href="https://docs.google.com/presentation/d/1YfKNOYakp-oUfef3w-0CuGwaF4GZXZB4XuqD8V0BElM/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g35f391192_00">Want to know more, check the slides of a presentation I made on BDD ...</a></p>
-<h1 id="greatressourcesonbdd">Great Ressources on BDD</h1>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=MCaXumfckmQ&amp;t=410s">An Introduction to Behavior-Driven Development (BDD) with Cucumber for Java by Seb Rose</a></li>
-<li><a href="https://www.youtube.com/watch?v=kTLF2G1djZw">From Requirements to Deployment: Implementing a Microservice in Java using BDD and TDD by John Ferguson Smart</a></li>
-</ul>
+<h1 id="andsomegreatressourcesonbdd">And some great ressources on BDD</h1>
+<div class="cinta uno">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MCaXumfckmQ" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="cinta uno">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kTLF2G1djZw" frameborder="0" allowfullscreen></iframe>
+</div>
 </div>]]></content:encoded></item></channel></rss>
