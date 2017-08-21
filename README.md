@@ -9,7 +9,8 @@ buster deploy
 ```
 
 For information the buster that works correctly is a fork of the original.
-Buster fork : https://github.com/manthansharma/buster/
+
+Buster fork adress is : https://github.com/manthansharma/buster/
 
 [For Details, visit link](https://www.codementor.io/montem/setup-github-pages-with-ghost-b59xbg2ya).
 
