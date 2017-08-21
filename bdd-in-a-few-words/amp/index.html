@@ -17,16 +17,18 @@
     <meta property="og:site_name" content="Youssef Medaghri-Alaoui">
     <meta property="og:type" content="article">
     <meta property="og:title" content="BDD in a few words">
-    <meta property="og:description" content="BDD is primarily a conceptual approach also knows as Specification by Example. It is a Collaboration Technic where all the actors of the team meet together in a meeting called “The 3 Amigos” to design stories related to a feature in the form of acceptance scenarios.    During the “The 3">
+    <meta property="og:description" content="BDD (Behavior Driven Development) is primarily a conceptual approach also knows as Specification by Example. It is a Collaboration Technic where all the actors of the team meet together in a meeting called “The 3 Amigos” to design stories related to a feature in the form of acceptance scenarios.    Amigos.">
     <meta property="og:url" content="https://ymedaghri.github.io/bdd-in-a-few-words/">
     <meta property="article:published_time" content="2017-08-21T17:44:05.000Z">
-    <meta property="article:modified_time" content="2017-08-21T17:56:13.000Z">
+    <meta property="article:modified_time" content="2017-08-21T21:29:04.000Z">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="BDD in a few words">
-    <meta name="twitter:description" content="BDD is primarily a conceptual approach also knows as Specification by Example. It is a Collaboration Technic where all the actors of the team meet together in a meeting called “The 3 Amigos” to design stories related to a feature in the form of acceptance scenarios.    During the “The 3">
+    <meta name="twitter:description" content="BDD (Behavior Driven Development) is primarily a conceptual approach also knows as Specification by Example. It is a Collaboration Technic where all the actors of the team meet together in a meeting called “The 3 Amigos” to design stories related to a feature in the form of acceptance scenarios.    Amigos.">
     <meta name="twitter:url" content="https://ymedaghri.github.io/bdd-in-a-few-words/">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Youssef MEDAGHRI-ALAOUI">
+    <meta name="twitter:site" content="@ymedaghri">
+    <meta name="twitter:creator" content="@ymedaghri">
     
     <script type="application/ld+json">
 {
@@ -46,13 +48,15 @@
         "@type": "Person",
         "name": "Youssef MEDAGHRI-ALAOUI",
         "url": "https://ymedaghri.github.io/author/youssef/",
-        "sameAs": []
+        "sameAs": [
+            "https://twitter.com/ymedaghri"
+        ]
     },
     "headline": "BDD in a few words",
     "url": "https://ymedaghri.github.io/bdd-in-a-few-words/",
     "datePublished": "2017-08-21T17:44:05.000Z",
-    "dateModified": "2017-08-21T17:56:13.000Z",
-    "description": "BDD is primarily a conceptual approach also knows as Specification by Example. It is a Collaboration Technic where all the actors of the team meet together in a meeting called “The 3 Amigos” to design stories related to a feature in the form of acceptance scenarios.    During the “The 3",
+    "dateModified": "2017-08-21T21:29:04.000Z",
+    "description": "BDD (Behavior Driven Development) is primarily a conceptual approach also knows as Specification by Example. It is a Collaboration Technic where all the actors of the team meet together in a meeting called “The 3 Amigos” to design stories related to a feature in the form of acceptance scenarios.    Amigos.",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://ymedaghri.github.io/"
@@ -92,16 +96,27 @@
             </header>
             <section class="post-content">
 
-                <div class="kg-card-markdown"><p>BDD is primarily a conceptual approach also knows as <strong>Specification by Example</strong>.<br>
+                <div class="kg-card-markdown"><p>BDD (Behavior Driven Development) is primarily a conceptual approach also knows as <strong>Specification by Example</strong>.<br>
 It is a <strong>Collaboration Technic</strong> where all the actors of the team meet together in a meeting called <strong>“The 3 Amigos”</strong> to design stories related to a feature in the form of acceptance scenarios.</p>
 <div class="cinta dos">
   <amp-img src="https://ymedaghri.github.io/content/images/2017/08/3-amigos-mario-luigi-yoschi.png" width="630" height="307" layout="responsive"></amp-img>
 </div>
 <br>
-<br>
-<p>During the <strong>“The 3 Amigos”</strong> meeting, conversations take place between the business analyst, the developer and the tester and they elaborate the requirements together.</p>
-<p>The output of this meeting is a set of <strong>acceptance scenarios</strong> corresponding to the requirements they have been discussing about.</p>
-<p>These scenarios guide the developer and act as automated tests.<br>
+<h1 id="amigos">Amigos...</h1>
+<p>The name <strong>3 Amigos</strong> refers to the fact that the 3 parts that constitutes the Team (Developers, Testers, PO &amp; BusinessAnalysts) are working together collaboratively during this meeting.<br>
+During the <strong>“The 3 Amigos”</strong> meeting, conversations take place between the business analyst (or PO), the developer, and the tester.<br>
+Doing so, they elaborate the requirements together.</p>
+<h1 id="thegoldenruleofbdd">The Golden rule of BDD</h1>
+<blockquote>
+<p>Having conversations<br>
+Is more important than capturing conversations<br>
+Is more important than automating conversations</p>
+</blockquote>
+<p>At the end of the <strong>3 Amigos</strong> meeting the team has a set of <strong>acceptance criteria</strong>, but <strong>the most important aspect of this approach</strong> is that at this point they have <strong>the same understanding</strong> of all the requirements they have been discussing about.</p>
+<h1 id="bddisasynthesisandrefinementoftddatdd">BDD is a synthesis and refinement of TDD &amp; ATDD</h1>
+<p>The output of the <strong>3 Amigos</strong> meeting is a set of <strong>acceptance scenarios</strong> corresponding to the requirements that contributes directly to precise business outcomes.</p>
+<p>These acceptance scenarios will guide implementing the described requirements such as in the TDD approach (Test Driven Development)</p>
+<p>The acceptance scenarios describes behaviors in a single notation directly accessible to any role in the Team (Given/When/Then Canvas).<br>
 These are very well suited to work in relation with <strong>Cucumber</strong> automation testing tool.</p>
 <h2 id="belowisanexampleofaverysimpleacceptancescenario">Below is an example of a very simple acceptance scenario :</h2>
 <pre><code>Story: Returns go to stock
@@ -125,7 +140,12 @@ When he returns the blue garment for a replacement in black
 Then I should have three blue garments in stock
 And two black garments in stock.
 </code></pre>
-<p>Want to know more, check this presentation ...</p>
+<p><a href="https://docs.google.com/presentation/d/1YfKNOYakp-oUfef3w-0CuGwaF4GZXZB4XuqD8V0BElM/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g35f391192_00">Want to know more, check the slides of a presentation I made on BDD ...</a></p>
+<h1 id="greatressourcesonbdd">Great Ressources on BDD</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=MCaXumfckmQ&amp;t=410s">An Introduction to Behavior-Driven Development (BDD) with Cucumber for Java by Seb Rose</a></li>
+<li><a href="https://www.youtube.com/watch?v=kTLF2G1djZw">From Requirements to Deployment: Implementing a Microservice in Java using BDD and TDD by John Ferguson Smart</a></li>
+</ul>
 </div>
 
             </section>

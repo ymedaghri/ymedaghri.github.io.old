@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Youssef MEDAGHRI-ALAOUI - Youssef Medaghri-Alaoui]]></title><description><![CDATA[Thoughts, stories and ideas on Software CraftmanShip, Devops & Agility.]]></description><link>https://ymedaghri.github.io/</link><image><url>https://ymedaghri.github.io/favicon.png</url><title>Youssef MEDAGHRI-ALAOUI - Youssef Medaghri-Alaoui</title><link>https://ymedaghri.github.io/</link></image><generator>Ghost 1.6</generator><lastBuildDate>Mon, 21 Aug 2017 21:29:55 GMT</lastBuildDate><atom:link href="https://ymedaghri.github.io/author/youssef/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[BDD in a few words]]></title><description><![CDATA[<div class="kg-card-markdown"><p>BDD (Behavior Driven Development) is primarily a conceptual approach also knows as <strong>Specification by Example</strong>.<br>
+It is a <strong>Collaboration Technic</strong> where all the actors of the team meet together in a meeting called <strong>“The 3 Amigos”</strong> to design stories related to a feature in the form of acceptance scenarios.</p>
+<div class="cinta dos">
+  <img src="https://ymedaghri.github.io/content/images/2017/08/3-amigos-mario-luigi-yoschi.png">
+</div>
+<br>
+<h1 id="amigos">Amigos.</h1></div>]]></description><link>https://ymedaghri.github.io/bdd-in-a-few-words/</link><guid isPermaLink="false">599b1b9b2e0d1b435afe3efb</guid><dc:creator><![CDATA[Youssef MEDAGHRI-ALAOUI]]></dc:creator><pubDate>Mon, 21 Aug 2017 17:44:05 GMT</pubDate><content:encoded><![CDATA[<div class="kg-card-markdown"><p>BDD (Behavior Driven Development) is primarily a conceptual approach also knows as <strong>Specification by Example</strong>.<br>
+It is a <strong>Collaboration Technic</strong> where all the actors of the team meet together in a meeting called <strong>“The 3 Amigos”</strong> to design stories related to a feature in the form of acceptance scenarios.</p>
+<div class="cinta dos">
+  <img src="https://ymedaghri.github.io/content/images/2017/08/3-amigos-mario-luigi-yoschi.png">
+</div>
+<br>
+<h1 id="amigos">Amigos...</h1>
+<p>The name <strong>3 Amigos</strong> refers to the fact that the 3 parts that constitutes the Team (Developers, Testers, PO &amp; BusinessAnalysts) are working together collaboratively during this meeting.<br>
+During the <strong>“The 3 Amigos”</strong> meeting, conversations take place between the business analyst (or PO), the developer, and the tester.<br>
+Doing so, they elaborate the requirements together.</p>
+<h1 id="thegoldenruleofbdd">The Golden rule of BDD</h1>
+<blockquote>
+<p>Having conversations<br>
+Is more important than capturing conversations<br>
+Is more important than automating conversations</p>
+</blockquote>
+<p>At the end of the <strong>3 Amigos</strong> meeting the team has a set of <strong>acceptance criteria</strong>, but <strong>the most important aspect of this approach</strong> is that at this point they have <strong>the same understanding</strong> of all the requirements they have been discussing about.</p>
+<h1 id="bddisasynthesisandrefinementoftddatdd">BDD is a synthesis and refinement of TDD &amp; ATDD</h1>
+<p>The output of the <strong>3 Amigos</strong> meeting is a set of <strong>acceptance scenarios</strong> corresponding to the requirements that contributes directly to precise business outcomes.</p>
+<p>These acceptance scenarios will guide implementing the described requirements such as in the TDD approach (Test Driven Development)</p>
+<p>The acceptance scenarios describes behaviors in a single notation directly accessible to any role in the Team (Given/When/Then Canvas).<br>
+These are very well suited to work in relation with <strong>Cucumber</strong> automation testing tool.</p>
+<h2 id="belowisanexampleofaverysimpleacceptancescenario">Below is an example of a very simple acceptance scenario :</h2>
+<pre><code>Story: Returns go to stock
+As a store owner
+In order to keep track of stock
+I want to add items back to stock when they're returned.
+
+
+Scenario 1: Refunded items should be returned to stock
+Given that a customer previously bought a black sweater from me
+And I have three black sweaters in stock.
+When he returns the black sweater for a refund
+Then I should have four black sweaters in stock.
+
+
+Scenario 2: Replaced items should be returned to stock
+Given that a customer previously bought a blue garment from me
+And I have two blue garments in stock
+And three black garments in stock.
+When he returns the blue garment for a replacement in black
+Then I should have three blue garments in stock
+And two black garments in stock.
+</code></pre>
+<p><a href="https://docs.google.com/presentation/d/1YfKNOYakp-oUfef3w-0CuGwaF4GZXZB4XuqD8V0BElM/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g35f391192_00">Want to know more, check the slides of a presentation I made on BDD ...</a></p>
+<h1 id="greatressourcesonbdd">Great Ressources on BDD</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=MCaXumfckmQ&amp;t=410s">An Introduction to Behavior-Driven Development (BDD) with Cucumber for Java by Seb Rose</a></li>
+<li><a href="https://www.youtube.com/watch?v=kTLF2G1djZw">From Requirements to Deployment: Implementing a Microservice in Java using BDD and TDD by John Ferguson Smart</a></li>
+</ul>
+</div>]]></content:encoded></item></channel></rss>
